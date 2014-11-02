@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42BB38E1A00850300FB270A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BB38D1A00850300FB270A /* AppDelegate.swift */; };
+		A42BB3911A00850300FB270A /* PlayDove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A42BB38F1A00850300FB270A /* PlayDove.xcdatamodeld */; };
+		A42BB3931A00850300FB270A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BB3921A00850300FB270A /* LoginViewController.swift */; };
+		A42BB3961A00850300FB270A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42BB3941A00850300FB270A /* Main.storyboard */; };
+		A42BB3981A00850300FB270A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42BB3971A00850300FB270A /* Images.xcassets */; };
+		A42BB39B1A00850300FB270A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42BB3991A00850300FB270A /* LaunchScreen.xib */; };
+		A42BB3A71A00850300FB270A /* PlayDoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BB3A61A00850300FB270A /* PlayDoveTests.swift */; };
+		A42BB3B11A00895E00FB270A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BB3B01A00895E00FB270A /* MainViewController.swift */; };
+		A42BB3B31A0089D500FB270A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BB3B21A0089D500FB270A /* RegisterViewController.swift */; };
+		A4F2EE981A03344F003267D0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EE971A03344F003267D0 /* Parse.framework */; };
+		A4F2EE9A1A033479003267D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EE991A033479003267D0 /* AudioToolbox.framework */; };
+		A4F2EE9C1A033480003267D0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EE9B1A033480003267D0 /* CFNetwork.framework */; };
+		A4F2EE9E1A033486003267D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EE9D1A033486003267D0 /* CoreGraphics.framework */; };
+		A4F2EEA01A033491003267D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EE9F1A033491003267D0 /* CoreLocation.framework */; };
+		A4F2EEA21A0334A0003267D0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEA11A0334A0003267D0 /* libz.dylib */; };
+		A4F2EEA41A0334A7003267D0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEA31A0334A7003267D0 /* MobileCoreServices.framework */; };
+		A4F2EEA61A0334AE003267D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEA51A0334AE003267D0 /* QuartzCore.framework */; };
+		A4F2EEA81A0334B4003267D0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEA71A0334B4003267D0 /* Security.framework */; };
+		A4F2EEAA1A0334BA003267D0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEA91A0334BA003267D0 /* StoreKit.framework */; };
+		A4F2EEAC1A0334C0003267D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEAB1A0334C0003267D0 /* SystemConfiguration.framework */; };
+		A4F2EEB11A033CA8003267D0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F2EEB01A033CA8003267D0 /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42BB3A11A00850300FB270A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42BB3801A00850300FB270A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42BB3871A00850300FB270A;
+			remoteInfo = PlayDove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42BB3881A00850300FB270A /* PlayDove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayDove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42BB38C1A00850300FB270A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42BB38D1A00850300FB270A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A42BB3901A00850300FB270A /* PlayDove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayDove.xcdatamodel; sourceTree = "<group>"; };
+		A42BB3921A00850300FB270A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A42BB3951A00850300FB270A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42BB3971A00850300FB270A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A42BB39A1A00850300FB270A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A42BB3A01A00850300FB270A /* PlayDoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayDoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42BB3A51A00850300FB270A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42BB3A61A00850300FB270A /* PlayDoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDoveTests.swift; sourceTree = "<group>"; };
+		A42BB3B01A00895E00FB270A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A42BB3B21A0089D500FB270A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A4F2EE971A03344F003267D0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A4F2EE991A033479003267D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A4F2EE9B1A033480003267D0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A4F2EE9D1A033486003267D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4F2EE9F1A033491003267D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4F2EEA11A0334A0003267D0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A4F2EEA31A0334A7003267D0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A4F2EEA51A0334AE003267D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4F2EEA71A0334B4003267D0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A4F2EEA91A0334BA003267D0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A4F2EEAB1A0334C0003267D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A4F2EEAD1A0335A5003267D0 /* PlayDove-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayDove-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4F2EEB01A033CA8003267D0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42BB3851A00850300FB270A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F2EEAC1A0334C0003267D0 /* SystemConfiguration.framework in Frameworks */,
+				A4F2EEAA1A0334BA003267D0 /* StoreKit.framework in Frameworks */,
+				A4F2EEA81A0334B4003267D0 /* Security.framework in Frameworks */,
+				A4F2EEB11A033CA8003267D0 /* Bolts.framework in Frameworks */,
+				A4F2EEA61A0334AE003267D0 /* QuartzCore.framework in Frameworks */,
+				A4F2EEA41A0334A7003267D0 /* MobileCoreServices.framework in Frameworks */,
+				A4F2EEA21A0334A0003267D0 /* libz.dylib in Frameworks */,
+				A4F2EEA01A033491003267D0 /* CoreLocation.framework in Frameworks */,
+				A4F2EE9E1A033486003267D0 /* CoreGraphics.framework in Frameworks */,
+				A4F2EE9C1A033480003267D0 /* CFNetwork.framework in Frameworks */,
+				A4F2EE9A1A033479003267D0 /* AudioToolbox.framework in Frameworks */,
+				A4F2EE981A03344F003267D0 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42BB39D1A00850300FB270A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42BB37F1A00850300FB270A = {
+			isa = PBXGroup;
+			children = (
+				A4F2EE961A03336A003267D0 /* Frameworks */,
+				A42BB38A1A00850300FB270A /* PlayDove */,
+				A42BB3A31A00850300FB270A /* PlayDoveTests */,
+				A42BB3891A00850300FB270A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42BB3891A00850300FB270A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42BB3881A00850300FB270A /* PlayDove.app */,
+				A42BB3A01A00850300FB270A /* PlayDoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42BB38A1A00850300FB270A /* PlayDove */ = {
+			isa = PBXGroup;
+			children = (
+				A42BB38D1A00850300FB270A /* AppDelegate.swift */,
+				A42BB3921A00850300FB270A /* LoginViewController.swift */,
+				A42BB3B01A00895E00FB270A /* MainViewController.swift */,
+				A42BB3B21A0089D500FB270A /* RegisterViewController.swift */,
+				A42BB3941A00850300FB270A /* Main.storyboard */,
+				A42BB3971A00850300FB270A /* Images.xcassets */,
+				A42BB3991A00850300FB270A /* LaunchScreen.xib */,
+				A42BB38F1A00850300FB270A /* PlayDove.xcdatamodeld */,
+				A42BB38B1A00850300FB270A /* Supporting Files */,
+				A4F2EEAD1A0335A5003267D0 /* PlayDove-Bridging-Header.h */,
+			);
+			path = PlayDove;
+			sourceTree = "<group>";
+		};
+		A42BB38B1A00850300FB270A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A42BB38C1A00850300FB270A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A42BB3A31A00850300FB270A /* PlayDoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42BB3A61A00850300FB270A /* PlayDoveTests.swift */,
+				A42BB3A41A00850300FB270A /* Supporting Files */,
+			);
+			path = PlayDoveTests;
+			sourceTree = "<group>";
+		};
+		A42BB3A41A00850300FB270A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A42BB3A51A00850300FB270A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4F2EE961A03336A003267D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F2EEB01A033CA8003267D0 /* Bolts.framework */,
+				A4F2EEAB1A0334C0003267D0 /* SystemConfiguration.framework */,
+				A4F2EEA91A0334BA003267D0 /* StoreKit.framework */,
+				A4F2EEA71A0334B4003267D0 /* Security.framework */,
+				A4F2EEA51A0334AE003267D0 /* QuartzCore.framework */,
+				A4F2EEA31A0334A7003267D0 /* MobileCoreServices.framework */,
+				A4F2EEA11A0334A0003267D0 /* libz.dylib */,
+				A4F2EE9F1A033491003267D0 /* CoreLocation.framework */,
+				A4F2EE9D1A033486003267D0 /* CoreGraphics.framework */,
+				A4F2EE9B1A033480003267D0 /* CFNetwork.framework */,
+				A4F2EE991A033479003267D0 /* AudioToolbox.framework */,
+				A4F2EE971A03344F003267D0 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A42BB3871A00850300FB270A /* PlayDove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42BB3AA1A00850300FB270A /* Build configuration list for PBXNativeTarget "PlayDove" */;
+			buildPhases = (
+				A42BB3841A00850300FB270A /* Sources */,
+				A42BB3851A00850300FB270A /* Frameworks */,
+				A42BB3861A00850300FB270A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayDove;
+			productName = PlayDove;
+			productReference = A42BB3881A00850300FB270A /* PlayDove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42BB39F1A00850300FB270A /* PlayDoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42BB3AD1A00850300FB270A /* Build configuration list for PBXNativeTarget "PlayDoveTests" */;
+			buildPhases = (
+				A42BB39C1A00850300FB270A /* Sources */,
+				A42BB39D1A00850300FB270A /* Frameworks */,
+				A42BB39E1A00850300FB270A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42BB3A21A00850300FB270A /* PBXTargetDependency */,
+			);
+			name = PlayDoveTests;
+			productName = PlayDoveTests;
+			productReference = A42BB3A01A00850300FB270A /* PlayDoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42BB3801A00850300FB270A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LineBreak;
+				TargetAttributes = {
+					A42BB3871A00850300FB270A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A42BB39F1A00850300FB270A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A42BB3871A00850300FB270A;
+					};
+				};
+			};
+			buildConfigurationList = A42BB3831A00850300FB270A /* Build configuration list for PBXProject "PlayDove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42BB37F1A00850300FB270A;
+			productRefGroup = A42BB3891A00850300FB270A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42BB3871A00850300FB270A /* PlayDove */,
+				A42BB39F1A00850300FB270A /* PlayDoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42BB3861A00850300FB270A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42BB3961A00850300FB270A /* Main.storyboard in Resources */,
+				A42BB39B1A00850300FB270A /* LaunchScreen.xib in Resources */,
+				A42BB3981A00850300FB270A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42BB39E1A00850300FB270A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42BB3841A00850300FB270A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42BB3931A00850300FB270A /* LoginViewController.swift in Sources */,
+				A42BB3B31A0089D500FB270A /* RegisterViewController.swift in Sources */,
+				A42BB38E1A00850300FB270A /* AppDelegate.swift in Sources */,
+				A42BB3911A00850300FB270A /* PlayDove.xcdatamodeld in Sources */,
+				A42BB3B11A00895E00FB270A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42BB39C1A00850300FB270A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42BB3A71A00850300FB270A /* PlayDoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42BB3A21A00850300FB270A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42BB3871A00850300FB270A /* PlayDove */;
+			targetProxy = A42BB3A11A00850300FB270A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42BB3941A00850300FB270A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42BB3951A00850300FB270A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42BB3991A00850300FB270A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42BB39A1A00850300FB270A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42BB3A81A00850300FB270A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A42BB3A91A00850300FB270A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42BB3AB1A00850300FB270A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PlayDove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayDove/PlayDove-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A42BB3AC1A00850300FB270A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PlayDove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayDove/PlayDove-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A42BB3AE1A00850300FB270A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayDoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayDove.app/PlayDove";
+			};
+			name = Debug;
+		};
+		A42BB3AF1A00850300FB270A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayDoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayDove.app/PlayDove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42BB3831A00850300FB270A /* Build configuration list for PBXProject "PlayDove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42BB3A81A00850300FB270A /* Debug */,
+				A42BB3A91A00850300FB270A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42BB3AA1A00850300FB270A /* Build configuration list for PBXNativeTarget "PlayDove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42BB3AB1A00850300FB270A /* Debug */,
+				A42BB3AC1A00850300FB270A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42BB3AD1A00850300FB270A /* Build configuration list for PBXNativeTarget "PlayDoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42BB3AE1A00850300FB270A /* Debug */,
+				A42BB3AF1A00850300FB270A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A42BB38F1A00850300FB270A /* PlayDove.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A42BB3901A00850300FB270A /* PlayDove.xcdatamodel */,
+			);
+			currentVersion = A42BB3901A00850300FB270A /* PlayDove.xcdatamodel */;
+			path = PlayDove.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A42BB3801A00850300FB270A /* Project object */;
+}
